@@ -1,0 +1,32 @@
+1. react will take care of DOM
+2. it uses declerative way.all info is stored in object(state) and react takes desiscion based on the info in that objects(state)
+3. component is JS functions/class that take attributes(props0) input and returns/render html(jsx)
+4. state + component + JSX = virtual DOM
+5. react act to change in state(object info)  
+6 .onw way flow of data 
+
+26//
+1. in react we can return html/jsx using function as well as Classes
+2. in order to return function through class we need to extend component class 
+
+27//
+1. u cannot modify state without calling setState() method (i.e.this.state.string = vishal .R. sangole <= cannot do this).
+cuz react unidirectional data flow. after onClick happens react intercept and DOM rerender the hole jsx or render() method.
+
+31//Life cycle methods - fetching
+1.component class has many life cycle methods
+
+38//
+JOB OF REACT DEVELOPER
+1.decide on components
+2.decide the state and where it lives
+3.what changes when state changes
+
+4.when state changes render function will run 
+
+
+
+45//
+1.this. in in function reffers to Class ,but this. in html elemtnt attributes reffers to element it self.
+to make this. in html element point to class we have to bind it with bind() function.
+2.but in case of arrow function both this. will reffer to Class 
